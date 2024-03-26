@@ -100,8 +100,8 @@ int main(int argc, char **argv) {
 	signal(SIGTERM, InterruptHandler);
 	signal(SIGINT, InterruptHandler);
 
-	StaticEyesRenderer *renderer = new StaticEyesRenderer();
-	// KITTRenderer *renderer = new KITTRenderer();
+	// StaticEyesRenderer *renderer = new StaticEyesRenderer();
+	KITTRenderer *renderer = new KITTRenderer();
 
 	do {
 		renderer->drawFrameToCanvas(canvas);

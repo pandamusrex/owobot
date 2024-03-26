@@ -2,7 +2,11 @@
 
 ## Hardware
 - Waveshare 64x32 2.5mm pitch LED matrix
-- Raspberry Pi Zero W
+- Raspberry Pi 4 (if you don't want Visual Studio Code support, you can use a Zero instead)
+
+## Wiring
+- Follow hzeller's instructions here: https://github.com/hzeller/rpi-rgb-led-matrix/blob/master/wiring.md
+- For a single 64x32 matrix like here, you only need the Chain 1 (Smiley Face) connections
 
 ## Building
 - (Not sure if needed - might be auto-installed by cpprestsdk) Install [Boost]()
