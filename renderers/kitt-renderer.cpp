@@ -19,9 +19,9 @@ void KITTRenderer::drawFrameToCanvas(rgb_matrix::Canvas *canvas) {
 
 	for (int i = 0; i < 8; i++) {
 		int r = m_lamp_brightness[i];
-		for (int x = 0; x < 8; x++) {
-			for (int y = 0; y < 8; y++) {
-				canvas->SetPixel(i * 8 + x, 12 + y, r, 0, 0);
+		for (int x = 0; x < 16; x++) {
+			for (int y = 0; y < 16; y++) {
+				canvas->SetPixel(i * 16 + x, 8 + y, r, 0, 0);
 			}
 		}
 	}
